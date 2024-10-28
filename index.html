@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./static/css/main.css" />
+    <title>Internship test</title>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <div class="calculate-container">
+        <div class="value-container">
+          <label for="firstValue">First value</label>
+          <input
+            type="number"
+            name="FirstValue"
+            id="firstValue"
+            placeholder="type your first number here..."
+          />
+        </div>
+
+        <div class="value-container">
+          <label for="secondValue">Second value</label>
+          <input
+            type="number"
+            name="secondValue"
+            id="secondValue"
+            placeholder="type your second number here..."
+          />
+        </div>
+
+        <button onclick="calculate()" id="calculate">Calculate</button>
+      </div>
+    </main>
+
+    <footer></footer>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>
